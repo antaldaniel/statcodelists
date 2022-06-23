@@ -3,7 +3,7 @@
 \docType{data}
 \name{CL_FREQ}
 \alias{CL_FREQ}
-\title{Available codelists by concept}
+\title{Codelist Frequency}
 \format{
 A data frame with 34 rows and 5 variables:
 \describe{
@@ -22,7 +22,7 @@ A data frame with 34 rows and 5 variables:
 CL_FREQ
 }
 \description{
-A dataset containing the available codelists in the StatCodelists package.
+Codelist Frequency.
 }
 \details{
 The SDMX description: "This code list provides a set of values indicating the

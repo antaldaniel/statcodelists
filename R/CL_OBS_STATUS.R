@@ -1,0 +1,18 @@
+#' @title Observation Status Codelist 2.2
+#'
+#' @description A dataset containing the \code{Observation} status codelist.
+#' @details The SDMX description: "This code list provides coded information about the
+#' "status" of an observation (with respect to events such as the ones reflected in the
+#' codes composing the code list). The observation status provides information on
+#' 1) the quality of a value or 2) unusual or missing values."
+#' @format A data frame with 20 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing data observation status.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_local}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#'   ...
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_OBS_STATUS"

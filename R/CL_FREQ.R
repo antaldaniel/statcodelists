@@ -1,6 +1,6 @@
-#' @title Available codelists by concept
+#' @title Codelist Frequency
 #'
-#' @description A dataset containing the available codelists in the StatCodelists package.
+#' @description Codelist Frequency.
 #' @details The SDMX description: "This code list provides a set of values indicating the
 #'\code{frequency} of the data (e.g. weekly, monthly, quarterly). The concept\code{frequency}
 #' may refer to various stages in the production process, e.g. data collection or data
