@@ -1,6 +1,6 @@
 Package: statcodelists
 Title: Use Standardized Statistical Codelists
-Version: 0.0.0.9001
+Version: 0.0.0.9003
 Authors@R: 
     person("Daniel", "Antal", , "daniel.antal@dataobservatory.eu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7513-6760"))

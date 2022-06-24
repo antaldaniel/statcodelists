@@ -1,0 +1,24 @@
+destination: docs
+
+reference:
+- title: SDMX Codelists
+  contents:
+  - CL_ACTIVITY_ANZSIC06
+  - CL_ACTIVITY_ISIC4
+  - CL_ACTIVITY_NACE2
+  - CL_AGE
+  - CL_AREA
+  - CL_DEG_URB
+  - CL_FREQ
+  - CL_OBS_STATUS
+  - CL_OCCUPATION
+  - CL_SEASONAL_ADJUST
+  - CL_SEX
+  - CL_TIME_FORMAT
+  - CL_TIME_PER_COLLECT
+  - CL_TIMETRANS
+  - CL_TIMETRANS_TYPE
+  - CL_TIMETRANS_PER
+  - CL_UNIT_MULT
+
+
