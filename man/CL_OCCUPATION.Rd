@@ -25,11 +25,7 @@ A dataset containing the \code{Occupation} codelist,
 abbreviated as \code{CL_OCCUPATION}. Version 2.2.
 }
 \details{
-The SDMX description: 'This code list provides a list of values for
-describing the job or position held by an individual. More information about this
-code list and SDMX code lists in general (e.g. list of generic codes for
-expressing general concepts like "Total", "Unknown", etc.;
-syntaxes for the creation of further codes; general guidelines for the creation of
-SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+The SDMX description: "This code list provides a list of values for
+describing the job or position held by an individual."
 }
 \keyword{datasets}

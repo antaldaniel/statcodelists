@@ -25,7 +25,7 @@ A dataset containing the \code{Degree of Urbanization} codelist,
 abbreviated as \code{CL_DEG_URB}. Version 1.0.
 }
 \details{
-The SDMX description: 'This code list provides coded information about
-the degree to which area is urbanised.'
+The SDMX description: "This code list provides coded information about
+the degree to which area is urbanised."
 }
 \keyword{datasets}

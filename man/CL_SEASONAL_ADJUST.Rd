@@ -27,9 +27,6 @@ Codelist \code{Seasonal Adjustment}, abbreviated \code{CL_SEASONAL_ADJUST} Versi
 The SDMX description: 'Seasonal adjustment is a statistical technique used to
 remove the effects of seasonal and calendar influences operating on a data series.
 Version 1.0 of the code list was formally adopted by the SDMX Secretariat on 4 July 2014.
-Further recommended code values for expressing general statistical concepts like
-"not applicable", etc., can be found in section “Generic codes” of the
-"Guidelines for the creation and management of SDMX Cross-Domain Code Lists"
-(\url{https://sdmx.org/?page_id=4345}).'
+'
 }
 \keyword{datasets}
