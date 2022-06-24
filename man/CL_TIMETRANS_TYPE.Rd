@@ -10,7 +10,7 @@ A data frame with 13 rows and 5 variables:
 \item{id}{A statistical code for describing the transformation types of time series.}
 \item{name}{The standard label of the code.}
 \item{description}{The description of the code.}
-\item{name_local}{The language code of the name label.}
+\item{name_locale}{The language code of the name label.}
 \item{description_locale}{The language code of the description.}
 }
 }

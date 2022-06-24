@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![](https://img.shields.io/badge/devel%20version-0.1.0.-blue.svg)](https://github.com/statcodelists)
+[![](https://img.shields.io/badge/devel%20version-0.1.0-blue.svg)](https://github.com/statcodelists)
 [![License:
 CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://cran.r-project.org/web/licenses/CC0)
 <!-- badges: end -->
@@ -109,6 +109,11 @@ data("CL_FREQ")
 | \_O | Other                 | To be used when the qualitative or quantitative values that a variable takes in a data set is associated to multiple occurrences with frequency other than the already defined ones (for example every 5 hours and 32 minutes etc.)                                                                                                                                                                                                                                               | en          | en                 |
 | \_U | Unspecified           | To be used when a set of values are reported within a time range but not associated to sub ranges. Often this could happen in case of missing or sparse information. (Let’s say we have two observations for 2020 but we do not know if they are part of a monthly reporting or quarterly reporting)                                                                                                                                                                              | en          | en                 |
 | \_Z | Not applicable        | To be used when the qualitative or quantitative values that a variable takes in a data set is not associated to multiple occurrences (only single occurrence exists) one can use the \_Z as frequency                                                                                                                                                                                                                                                                             | en          | en                 |
+
+Further recommended code values for expressing general statistical
+concepts like `not applicable`, etc., can be found in section
+`Generic codes` of the [Guidelines for the creation and management of
+SDMX Cross-Domain Code Lists](https://sdmx.org/?page_id=4345).
 
 ## Code of Conduct
 

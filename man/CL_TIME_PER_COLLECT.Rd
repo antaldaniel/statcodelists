@@ -19,7 +19,7 @@ A data frame with 47 rows and 5 variables:
 \item{id}{A statistical code for describing the transformation of the time series.}
 \item{name}{The standard label of the code.}
 \item{description}{The description of the code.}
-\item{name_local}{The language code of the name label.}
+\item{name_locale}{The language code of the name label.}
 \item{description_locale}{The language code of the description.}
 }
 }
@@ -36,7 +36,8 @@ CL_TIME_PER_COLLECT
 \description{
 Codelist \code{Time Period - Collection}, abbreviated as \code{CL_TIME_PER_COLLECT}. Version 1.0.
 
-Codelist \code{Time Period - Collection}, abbreviated as \code{CL_TIME_PER_COLLECT}. Version 1.0.
+Codelist \code{Time Period - Collection},
+abbreviated as \code{CL_TIME_PER_COLLECT}. Version 1.0.
 }
 \details{
 The SDMX description: "	This code list provides a list of values for representing

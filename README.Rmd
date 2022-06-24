@@ -52,6 +52,8 @@ data("CL_FREQ")
 knitr::kable(CL_FREQ)
 ```
 
+Further recommended code values for expressing general statistical concepts like `not applicable`, etc., can be found in section `Generic codes` of the [Guidelines for the creation and management of SDMX Cross-Domain Code Lists](https://sdmx.org/?page_id=4345).
+
 ## Code of Conduct
 
 Please note that the `statcodelists` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.

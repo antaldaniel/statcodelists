@@ -5,3 +5,5 @@
 ^README\.Rmd$
 ^not_included$
 ^data-raw$
+_pkgdown.yml
+^docs$

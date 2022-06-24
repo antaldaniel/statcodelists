@@ -16,7 +16,7 @@
 #'   \item{id}{A statistical code for describing age related time concepts.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -33,7 +33,7 @@
 #'   \item{id}{A statistical code for describing reference (geographical) areas.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -58,7 +58,7 @@
 #'   \item{id}{A statistical code for describing economic activities.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -78,7 +78,7 @@
 #'   \item{id}{A statistical code for describing economic activities.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -103,7 +103,7 @@
 #'   \item{id}{A statistical code for describing economic activities.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -127,13 +127,13 @@
 #'   \item{id}{A statistical code for describing the civil (marital) status of the individual.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
 "CL_CIVIL_STATUS"
 
-#' @title Codelist Classification of the Functions of Government
+#' @title Classification of the Functions of Government
 #'
 #' @description A dataset containing the \code{Classification of the Functions of Government} codelist,
 #' abbreviated as \code{CL_COFOG_1999}. Version 1.0.
@@ -146,24 +146,92 @@
 #'   \item{id}{A statistical code for describing government functions.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
 "CL_COFOG_1999"
 
+#' @title Classification of the Purposes of Non-Profit Institutions Serving Households
+#'
+#' @description A dataset containing the \code{Classification of the Purposes of Non-Profit Institutions Serving Households} codelist,
+#' abbreviated as \code{CL_COPNI_1999}. Version 1.0.
+#' @format A data frame with 65 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing non-profit services for households.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_locale}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_COPNI_1999"
+
+#' @title Classification of the Outlays of Producers According to Purpose
+#'
+#' @description A dataset containing the \code{Classification of the Outlays of Producers According to Purpose} codelist,
+#' abbreviated as \code{CL_COPP_1999}. Version 1.0.
+#' @description SDMX desciption: "This code list provides a set of building blocks to be
+#' used for classifying outlays of enterprises by purpose. It is based on the United Nations
+#' eponymous standard classification.
+#' This code list was formally adopted on 27 June 2014."
+#' @format A data frame with 51 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing outlays to producers.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_locale}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_COPP_1999"
+
+#' @title Codelist Confidentiality Status
+#'
+#' @description A dataset containing the \code{Confidentiality Status} codelist,
+#' abbreviated as \code{CL_CONF_STATUS}. Version 1.2.
+#' @details Metadata for describing the confidentiality of a statistical product, from
+#' \code{Free (free for publication)} till \code{Not for publication, restricted for internal use only}.
+#' @format A data frame with 11 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing the confidentiality status of a statistical product.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_locale}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_CONF_STATUS"
+
+#' @title Codelist Decimals
+#'
+#' @description A dataset containing the \code{Decimals} codelist,
+#' abbreviated as \code{CL_DECIMALS}. Version 1.0.
+#' @details This code list provides a list of values showing the number of decimal
+#' digits used in the data. This code list was released in 2009.
+#' @format A data frame with 16 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing the number of decimals.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_locale}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_DECIMALS"
+
 #' @title Codelist Degree of Urbanization
 #'
 #' @description A dataset containing the \code{Degree of Urbanization} codelist,
 #' abbreviated as \code{CL_DEG_URB}. Version 1.0.
-#' @details The SDMX description: 'This code list provides coded information about
-#' the degree to which area is urbanised.'
+#' @details The SDMX description: "This code list provides coded information about
+#' the degree to which area is urbanised."
 #' @format A data frame with 14 rows and 5 variables:
 #' \describe{
 #'   \item{id}{A statistical code for describing degrees of urbanizations.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -183,7 +251,7 @@
 #'   \item{id}{A statistical code for describing data collection frequency.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -202,7 +270,7 @@
 #'   \item{id}{A statistical code for describing data observation status.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -212,18 +280,14 @@
 #'
 #' @description A dataset containing the \code{Occupation} codelist,
 #' abbreviated as \code{CL_OCCUPATION}. Version 2.2.
-#' @details The SDMX description: 'This code list provides a list of values for
-#' describing the job or position held by an individual. More information about this
-#' code list and SDMX code lists in general (e.g. list of generic codes for
-#' expressing general concepts like "Total", "Unknown", etc.;
-#' syntaxes for the creation of further codes; general guidelines for the creation of
-#' SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+#' @details The SDMX description: "This code list provides a list of values for
+#' describing the job or position held by an individual."
 #' @format A data frame with 619 rows and 5 variables:
 #' \describe{
 #'   \item{id}{A statistical code for describing occupations.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -235,16 +299,13 @@
 #' @details The SDMX description: 'Seasonal adjustment is a statistical technique used to
 #' remove the effects of seasonal and calendar influences operating on a data series.
 #' Version 1.0 of the code list was formally adopted by the SDMX Secretariat on 4 July 2014.
-#' Further recommended code values for expressing general statistical concepts like
-#' "not applicable", etc., can be found in section “Generic codes” of the
-#' "Guidelines for the creation and management of SDMX Cross-Domain Code Lists"
-#' (\url{https://sdmx.org/?page_id=4345}).'
+#' '
 #' @format A data frame with 11 rows and 5 variables:
 #' \describe{
 #'   \item{id}{A statistical code for describing seasonal adjustments.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -262,7 +323,7 @@
 #'   \item{id}{A statistical code for describing sex.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -281,7 +342,7 @@
 #'   \item{id}{A statistical code for describing the various time formats.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -289,7 +350,8 @@
 
 #' @title Codelist Time Period - Collection
 #'
-#' @description Codelist \code{Time Period - Collection}, abbreviated as \code{CL_TIME_PER_COLLECT}. Version 1.0.
+#' @description Codelist \code{Time Period - Collection},
+#' abbreviated as \code{CL_TIME_PER_COLLECT}. Version 1.0.
 #' @details The SDMX description: 'This code list provides a list of values for representing
 #' dates or periods during which the observations have been collected in order to compile
 #' the indicator for the target reference period. This code list was formally adopted on
@@ -302,7 +364,7 @@
 #'   \item{id}{A statistical code for describing the transformation of the time series.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -319,7 +381,7 @@
 #'   \item{id}{A statistical code for describing the transformation types of time series.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -336,7 +398,7 @@
 #'   \item{id}{A statistical code for describing the transformation periods of time series.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -351,7 +413,7 @@
 #'   \item{id}{A statistical code for describing the transformation types of time series.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
@@ -371,7 +433,7 @@
 #'   \item{id}{A statistical code for describing unit multipliers.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
-#'   \item{name_local}{The language code of the name label.}
+#'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}

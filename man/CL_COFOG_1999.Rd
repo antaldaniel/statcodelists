@@ -3,14 +3,14 @@
 \docType{data}
 \name{CL_COFOG_1999}
 \alias{CL_COFOG_1999}
-\title{Codelist Classification of the Functions of Government}
+\title{Classification of the Functions of Government}
 \format{
 A data frame with 188 rows and 5 variables:
 \describe{
 \item{id}{A statistical code for describing government functions.}
 \item{name}{The standard label of the code.}
 \item{description}{The description of the code.}
-\item{name_local}{The language code of the name label.}
+\item{name_locale}{The language code of the name label.}
 \item{description_locale}{The language code of the description.}
 }
 }

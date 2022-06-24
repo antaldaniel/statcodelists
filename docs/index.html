@@ -35,7 +35,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">statcodelists</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0.</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0</span>
       </span>
     </div>
 
@@ -79,15 +79,11 @@
 <p>You can install the development version of statcodelists like so:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/remote-reexports.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"antaldaniel/statcodelists"</span><span class="op">)</span></code></pre></div>
-</div>
-<div class="section level2">
-<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
-</h2>
 <p>Cross-domain concepts in the SDMX framework describe concepts relevant to many, if not all, statistical domains. SDMX recommends using these concepts whenever feasible in SDMX structures and messages to promote the reuse and exchange of statistical information and related metadata between organisations.</p>
 <p>Code lists are predefined sets of terms from which some statistical coded concepts take their values. SDMX cross-domain code lists are used to support cross-domain concepts. The use of common code lists will help users to work even more efficiently, easing the maintenance of and reducing the need for mapping systems and interfaces delivering data and metadata to them. Therefore, a choice over code lists has a great impact on the efficiency of data sharing.</p>
 <p>statcodelists helps the use of the latest codelist in your R workflow.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">statcodelists</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/antaldaniel/statcodelists" class="external-link">statcodelists</a></span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"codebooks"</span><span class="op">)</span></code></pre></div>
 <table class="table">
 <colgroup>
@@ -208,6 +204,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+<div class="section level2">
+<h2 id="example-codelist-frequency">Example: Codelist Frequency<a class="anchor" aria-label="anchor" href="#example-codelist-frequency"></a>
+</h2>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"CL_FREQ"</span><span class="op">)</span></code></pre></div>
 <table class="table">
@@ -516,7 +516,7 @@
 <div class="dev-status">
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/statcodelists" class="external-link"><img src="https://img.shields.io/badge/devel%20version-0.0.0.9003-blue.svg"></a></li>
+<li><a href="https://github.com/statcodelists" class="external-link"><img src="https://img.shields.io/badge/devel%20version-0.1.0.-blue.svg"></a></li>
 <li><a href="https://cran.r-project.org/web/licenses/CC0" class="external-link"><img src="https://img.shields.io/badge/license-CC0-lightgrey.svg" alt="License: CC0"></a></li>
 </ul>
 </div>
