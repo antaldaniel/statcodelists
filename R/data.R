@@ -109,6 +109,49 @@
 #' @source \url{https://sdmx.org/?page_id=3215/}
 "CL_ACTIVITY_ISIC4"
 
+#' @title Codelist Activity - ISIC, Revision 4
+#'
+#' @description A dataset containing the \code{	Activity - ISIC, Revision 4} codelist,
+#' abbreviated as \code{CL_CIVIL_STATUS}. Version 1.0.
+#' @details The SDMX description: '	This code list provides a list of values for describing
+#' the civil (or marital) status of an individual, i.e. the legal, conjugal status of an individual in
+#' relation to the marriage laws or customs of the country.
+#' This code list was formally adopted on 25 November 2013.
+#' More information about and
+#' supporting material for this code list and SDMX code lists in general
+#' (e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
+#' etc.; syntaxes for the creation of further codes; general guidelines for the creation
+#' of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+#' @format A data frame with 8 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing the civil (marital) status of the individual.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_local}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_CIVIL_STATUS"
+
+#' @title Codelist Classification of the Functions of Government
+#'
+#' @description A dataset containing the \code{Classification of the Functions of Government} codelist,
+#' abbreviated as \code{CL_COFOG_1999}. Version 1.0.
+#' @details The SDMX description: "This code list provides a set of building blocks
+#' to be used for classifying final consumption expenditures of general government by
+#' function or purpose. It is based on the United Nations eponymous standard classification.
+#' This code list was formally adopted on 27 June 2014."
+#' @format A data frame with 188 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing government functions.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_local}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_COFOG_1999"
+
 #' @title Codelist Degree of Urbanization
 #'
 #' @description A dataset containing the \code{Degree of Urbanization} codelist,
@@ -265,6 +308,23 @@
 #' @source \url{https://sdmx.org/?page_id=3215/}
 "CL_TIME_PER_COLLECT"
 
+#' @title Codelist Time Transformation
+#'
+#' @description Codelist \code{Time Transformation}, abbreviated as
+#' \code{CL_TIMETRANS}. Version 1.0.
+#' @details The SDMX description: "	Code list for compound coding (type and period)
+#' of transformation types of time series."
+#' @format A data frame with 47 rows and 5 variables:
+#' \describe{
+#'   \item{id}{A statistical code for describing the transformation types of time series.}
+#'   \item{name}{The standard label of the code.}
+#'   \item{description}{The description of the code.}
+#'   \item{name_local}{The language code of the name label.}
+#'   \item{description_locale}{The language code of the description.}
+#' }
+#' @source \url{https://sdmx.org/?page_id=3215/}
+"CL_TIMETRANS"
+
 #' @title Codelist Time Transformation Period
 #'
 #' @description Codelist \code{Time Transformation Period}, abbreviated as
@@ -273,7 +333,7 @@
 #' of periods used for a time-related transformation of the time series."
 #' @format A data frame with 12 rows and 5 variables:
 #' \describe{
-#'   \item{id}{A statistical code for describing the transformation types of time series.}
+#'   \item{id}{A statistical code for describing the transformation periods of time series.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
 #'   \item{name_local}{The language code of the name label.}
@@ -296,7 +356,6 @@
 #' }
 #' @source \url{https://sdmx.org/?page_id=3215/}
 "CL_TIMETRANS_TYPE"
-
 
 #' @title Codelist Unit multiplier
 #'

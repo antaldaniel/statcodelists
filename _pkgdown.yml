@@ -1,6 +1,10 @@
 destination: docs
 
 reference:
+- title: Catalogue of Codelists
+  contents:
+  - codebooks
+
 - title: SDMX Codelists
   contents:
   - CL_ACTIVITY_ANZSIC06
@@ -8,6 +12,8 @@ reference:
   - CL_ACTIVITY_NACE2
   - CL_AGE
   - CL_AREA
+  - CL_CIVIL_STATUS
+  - CL_COFOG_1999
   - CL_DEG_URB
   - CL_FREQ
   - CL_OBS_STATUS

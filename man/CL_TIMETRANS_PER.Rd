@@ -7,7 +7,7 @@
 \format{
 A data frame with 12 rows and 5 variables:
 \describe{
-\item{id}{A statistical code for describing the transformation types of time series.}
+\item{id}{A statistical code for describing the transformation periods of time series.}
 \item{name}{The standard label of the code.}
 \item{description}{The description of the code.}
 \item{name_local}{The language code of the name label.}

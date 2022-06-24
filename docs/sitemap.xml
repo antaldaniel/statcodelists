@@ -19,19 +19,55 @@
     <loc>/news/index.html</loc>
   </url>
   <url>
+    <loc>/reference/CL_ACTIVITY_ANZSIC06.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_ACTIVITY_ISIC4.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_ACTIVITY_NACE2.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_AGE.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_AREA.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_CIVIL_STATUS.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_COFOG_1999.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_DEG_URB.html</loc>
+  </url>
+  <url>
     <loc>/reference/CL_FREQ.html</loc>
   </url>
   <url>
     <loc>/reference/CL_OBS_STATUS.html</loc>
   </url>
   <url>
+    <loc>/reference/CL_OCCUPATION.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_SEASONAL_ADJUST.html</loc>
+  </url>
+  <url>
     <loc>/reference/CL_SEX.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_TIMETRANS.html</loc>
   </url>
   <url>
     <loc>/reference/CL_TIMETRANS_PER.html</loc>
   </url>
   <url>
     <loc>/reference/CL_TIMETRANS_TYPE.html</loc>
+  </url>
+  <url>
+    <loc>/reference/CL_TIME_FORMAT.html</loc>
   </url>
   <url>
     <loc>/reference/CL_TIME_PER_COLLECT.html</loc>

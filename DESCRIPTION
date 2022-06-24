@@ -1,12 +1,15 @@
 Package: statcodelists
 Title: Use Standardized Statistical Codelists
-Version: 0.0.0.9003
+Version: 0.1.0.
 Authors@R: 
-    person("Daniel", "Antal", , "daniel.antal@dataobservatory.eu", role = c("aut", "cre"),
+    person(given = "Daniel", family = "Antal", email = "daniel.antal@dataobservatory.eu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7513-6760"))
-Description: Retrieve standardized statistical codelists.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: The goal of statcodelists is to promote the reuse and exchange of statistical 
+    information and related metadata with making the internationally standardized SDMX code 
+    lists available for the R user.
+License: CC0
+URL: https://github.com/antaldaniel/statcodelists
+BugReports: https://github.com/antaldaniel/statcodelists/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
