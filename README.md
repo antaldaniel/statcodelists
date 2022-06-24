@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![](https://img.shields.io/badge/devel%20version-0.0.0.9003-blue.svg)](https://github.com/statcodelists)
+[![](https://img.shields.io/badge/devel%20version-0.1.0.-blue.svg)](https://github.com/statcodelists)
 [![License:
 CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://cran.r-project.org/web/licenses/CC0)
 <!-- badges: end -->
@@ -21,8 +21,6 @@ You can install the development version of statcodelists like so:
 ``` r
 devtools::install_github("antaldaniel/statcodelists")
 ```
-
-## Example
 
 Cross-domain concepts in the SDMX framework describe concepts relevant
 to many, if not all, statistical domains. SDMX recommends using these
@@ -68,6 +66,8 @@ data("codebooks")
 | Time format                                                                        | CL_TIME_FORMAT      | SDMX      |
 | Time period – collection                                                           | CL_TIME_PER_COLLECT | SDMX      |
 | Unit multiplier                                                                    | CL_UNIT_MULT        | SDMX      |
+
+## Example: Codelist Frequency
 
 ``` r
 data("CL_FREQ")

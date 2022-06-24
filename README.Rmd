@@ -29,9 +29,6 @@ You can install the development version of statcodelists like so:
 ``` r
 devtools::install_github("antaldaniel/statcodelists")
 ```
-
-## Example
-
 Cross-domain concepts in the SDMX framework describe concepts relevant to many, if not all, statistical domains. SDMX recommends using these concepts whenever feasible in SDMX structures and messages to promote the reuse and exchange of statistical information and related metadata between organisations. 
 
 Code lists are predefined sets of terms from which some statistical coded concepts take their values. SDMX cross-domain code lists are used to support cross-domain concepts. The use of common code lists will help users to work even more efficiently, easing the maintenance of and reducing the need for mapping systems and interfaces delivering data and metadata to them. Therefore, a choice over code lists has a great impact on the efficiency of data sharing.
@@ -46,6 +43,7 @@ data("codebooks")
 knitr::kable(codebooks)
 ```
 
+## Example: Codelist Frequency
 
 ```{r cl_freq}
 data("CL_FREQ")

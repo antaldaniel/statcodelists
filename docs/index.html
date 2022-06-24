@@ -35,7 +35,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">statcodelists</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.0.9003</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0.</span>
       </span>
     </div>
 
@@ -71,14 +71,14 @@
 <div class="page-header"><h1 id="statcodelists">statcodelists<a class="anchor" aria-label="anchor" href="#statcodelists"></a>
 </h1></div>
 <!-- badges: start -->
-<!-- badges: end -->
-<p>The goal of statcodelists is to …</p>
+
+<p>The goal of statcodelists is to promote the reuse and exchange of statistical information and related metadata with making the internationally standardized SDMX code lists available for the R user.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>You can install the development version of statcodelists like so:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/remote-reexports.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"hadley/babynames"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/remote-reexports.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"antaldaniel/statcodelists"</span><span class="op">)</span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
@@ -87,162 +87,385 @@
 <p>Code lists are predefined sets of terms from which some statistical coded concepts take their values. SDMX cross-domain code lists are used to support cross-domain concepts. The use of common code lists will help users to work even more efficiently, easing the maintenance of and reducing the need for mapping systems and interfaces delivering data and metadata to them. Therefore, a choice over code lists has a great impact on the efficiency of data sharing.</p>
 <p>statcodelists helps the use of the latest codelist in your R workflow.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/antaldaniel/statcodelists" class="external-link">statcodelists</a></span><span class="op">)</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"codebooks"</span><span class="op">)</span>
-<span class="va">codebooks</span>
-<span class="co">#&gt;                                                                               concept</span>
-<span class="co">#&gt; 1                                                                            Activity</span>
-<span class="co">#&gt; 2                                                                                 Age</span>
-<span class="co">#&gt; 3                                                             Civil or marital status</span>
-<span class="co">#&gt; 4              Classification of Individual Consumption According to Purpose (COICOP)</span>
-<span class="co">#&gt; 5                               Classification of the Functions of Government (COFOG)</span>
-<span class="co">#&gt; 6              Classification of the Outlays of Producers According to Purpose (COPP)</span>
-<span class="co">#&gt; 7  Classification of the Purposes of Non-Profit Institutions Serving Households COPNI</span>
-<span class="co">#&gt; 8                                                              Confidentiality status</span>
-<span class="co">#&gt; 9                                                                            Currency</span>
-<span class="co">#&gt; 10                                                                           Decimals</span>
-<span class="co">#&gt; 11                                                             Degree of Urbanisation</span>
-<span class="co">#&gt; 12                                                                          Frequency</span>
-<span class="co">#&gt; 13                                                                 Geographical areas</span>
-<span class="co">#&gt; 14                                                                 Observation status</span>
-<span class="co">#&gt; 15                                                                         Occupation</span>
-<span class="co">#&gt; 16                                                              Organisation concepts</span>
-<span class="co">#&gt; 17                                                                Seasonal adjustment</span>
-<span class="co">#&gt; 18                                                                                Sex</span>
-<span class="co">#&gt; 19                                                                        Time format</span>
-<span class="co">#&gt; 20                                                           Time period – collection</span>
-<span class="co">#&gt; 21                                                                    Unit multiplier</span>
-<span class="co">#&gt;               codebook authority</span>
-<span class="co">#&gt; 1          CL_ACTIVITY      SDMX</span>
-<span class="co">#&gt; 2               CL_AGE      SDMX</span>
-<span class="co">#&gt; 3      CL_CIVIL_STATUS      SDMX</span>
-<span class="co">#&gt; 4            CL_COICOP      SDMX</span>
-<span class="co">#&gt; 5             CL_COFOG      SDMX</span>
-<span class="co">#&gt; 6              CL_COPP      SDMX</span>
-<span class="co">#&gt; 7             CL_COPNI      SDMX</span>
-<span class="co">#&gt; 8       CL_CONF_STATUS      SDMX</span>
-<span class="co">#&gt; 9          CL_CURRENCY      SDMX</span>
-<span class="co">#&gt; 10         CL_DECIMALS      SDMX</span>
-<span class="co">#&gt; 11          CL_DEG_URB      SDMX</span>
-<span class="co">#&gt; 12             CL_FREQ      SDMX</span>
-<span class="co">#&gt; 13             CL_AREA      SDMX</span>
-<span class="co">#&gt; 14       CL_OBS_STATUS      SDMX</span>
-<span class="co">#&gt; 15       CL_OCCUPATION      SDMX</span>
-<span class="co">#&gt; 16     CL_ORGANISATION      SDMX</span>
-<span class="co">#&gt; 17  CL_SEASONAL_ADJUST      SDMX</span>
-<span class="co">#&gt; 18              CL_SEX      SDMX</span>
-<span class="co">#&gt; 19      CL_TIME_FORMAT      SDMX</span>
-<span class="co">#&gt; 20 CL_TIME_PER_COLLECT      SDMX</span>
-<span class="co">#&gt; 21        CL_UNIT_MULT      SDMX</span></code></pre></div>
-<p>What is special about using <code>README.Rmd</code> instead of just <code>README.md</code>? You can include R chunks like so:</p>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">statcodelists</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"codebooks"</span><span class="op">)</span></code></pre></div>
+<table class="table">
+<colgroup>
+<col width="72%">
+<col width="18%">
+<col width="9%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">concept</th>
+<th align="left">codebook</th>
+<th align="left">authority</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">Activity</td>
+<td align="left">CL_ACTIVITY</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Age</td>
+<td align="left">CL_AGE</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Civil or marital status</td>
+<td align="left">CL_CIVIL_STATUS</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Classification of Individual Consumption According to Purpose (COICOP)</td>
+<td align="left">CL_COICOP</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Classification of the Functions of Government (COFOG)</td>
+<td align="left">CL_COFOG</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Classification of the Outlays of Producers According to Purpose (COPP)</td>
+<td align="left">CL_COPP</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Classification of the Purposes of Non-Profit Institutions Serving Households COPNI</td>
+<td align="left">CL_COPNI</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Confidentiality status</td>
+<td align="left">CL_CONF_STATUS</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Currency</td>
+<td align="left">CL_CURRENCY</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Decimals</td>
+<td align="left">CL_DECIMALS</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Degree of Urbanisation</td>
+<td align="left">CL_DEG_URB</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Frequency</td>
+<td align="left">CL_FREQ</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Geographical areas</td>
+<td align="left">CL_AREA</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Observation status</td>
+<td align="left">CL_OBS_STATUS</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Occupation</td>
+<td align="left">CL_OCCUPATION</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Organisation concepts</td>
+<td align="left">CL_ORGANISATION</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Seasonal adjustment</td>
+<td align="left">CL_SEASONAL_ADJUST</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Sex</td>
+<td align="left">CL_SEX</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Time format</td>
+<td align="left">CL_TIME_FORMAT</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="even">
+<td align="left">Time period – collection</td>
+<td align="left">CL_TIME_PER_COLLECT</td>
+<td align="left">SDMX</td>
+</tr>
+<tr class="odd">
+<td align="left">Unit multiplier</td>
+<td align="left">CL_UNIT_MULT</td>
+<td align="left">SDMX</td>
+</tr>
+</tbody>
+</table>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"CL_FREQ"</span><span class="op">)</span>
-<span class="va">CL_FREQ</span>
-<span class="co">#&gt;     id                  name</span>
-<span class="co">#&gt; 1    A                Annual</span>
-<span class="co">#&gt; 2   A2              Biennial</span>
-<span class="co">#&gt; 3   A3             Triennial</span>
-<span class="co">#&gt; 4   A4           Quadrennial</span>
-<span class="co">#&gt; 5   A5          Quinquennial</span>
-<span class="co">#&gt; 6  A10             Decennial</span>
-<span class="co">#&gt; 7  A20           Bidecennial</span>
-<span class="co">#&gt; 8  A30          Tridecennial</span>
-<span class="co">#&gt; 9  A_3    Three times a year</span>
-<span class="co">#&gt; 10   S Half-yearly, semester</span>
-<span class="co">#&gt; 11   Q             Quarterly</span>
-<span class="co">#&gt; 12   M               Monthly</span>
-<span class="co">#&gt; 13  M2             Bimonthly</span>
-<span class="co">#&gt; 14 M_2           Semimonthly</span>
-<span class="co">#&gt; 15 M_3   Three times a month</span>
-<span class="co">#&gt; 16   W                Weekly</span>
-<span class="co">#&gt; 17  W2              Biweekly</span>
-<span class="co">#&gt; 18  W3             Triweekly</span>
-<span class="co">#&gt; 19  W4           Four-weekly</span>
-<span class="co">#&gt; 20 W_2            Semiweekly</span>
-<span class="co">#&gt; 21 W_3    Three times a week</span>
-<span class="co">#&gt; 22   D                 Daily</span>
-<span class="co">#&gt; 23 D_2           Twice a day</span>
-<span class="co">#&gt; 24   H                Hourly</span>
-<span class="co">#&gt; 25  H2              Bihourly</span>
-<span class="co">#&gt; 26  H3             Trihourly</span>
-<span class="co">#&gt; 27   B Daily – business week</span>
-<span class="co">#&gt; 28   N              Minutely</span>
-<span class="co">#&gt; 29   I             Irregular</span>
-<span class="co">#&gt; 30  OA     Occasional annual</span>
-<span class="co">#&gt; 31  OM    Occasional monthly</span>
-<span class="co">#&gt; 32  _O                 Other</span>
-<span class="co">#&gt; 33  _U           Unspecified</span>
-<span class="co">#&gt; 34  _Z        Not applicable</span>
-<span class="co">#&gt;                                                                                                                                                                                                                                                                                                                                                                                                                                                                          description</span>
-<span class="co">#&gt; 1                                                                                                                                                                                                                                                                                                                                                                                                                           To be used for data collected or disseminated every year</span>
-<span class="co">#&gt; 2                                                                                                                                                                                                                                                                                                                                                                                                                      To be used for data collected or disseminated every two years</span>
-<span class="co">#&gt; 3                                                                                                                                                                                                                                                                                                                                                                                                                    To be used for data collected or disseminated every three years</span>
-<span class="co">#&gt; 4                                                                                                                                                                                                                                                                                                                                                                                                                     To be used for data collected or disseminated every four years</span>
-<span class="co">#&gt; 5                                                                                                                                                                                                                                                                                                                                                                                                                     To be used for data collected or disseminated every five years</span>
-<span class="co">#&gt; 6                                                                                                                                                                                                                                                                                                                                                                                                                      To be used for data collected or disseminated every ten years</span>
-<span class="co">#&gt; 7                                                                                                                                                                                                                                                                                                                                                                                                                   To be used for data collected or disseminated every twenty years</span>
-<span class="co">#&gt; 8                                                                                                                                                                                                                                                                                                                                                                                                                   To be used for data collected or disseminated every thirty years</span>
-<span class="co">#&gt; 9                                                                                                                                                                                                                                                                                                                                                                                                                   To be used for data collected or disseminated three times a year</span>
-<span class="co">#&gt; 10                                                                                                                                                                                                                                                                                                                                                                                                                      To be used for data collected or disseminated every semester</span>
-<span class="co">#&gt; 11                                                                                                                                                                                                                                                                                                                                                                                                                       To be used for data collected or disseminated every quarter</span>
-<span class="co">#&gt; 12                                                                                                                                                                                                                                                                                                                                                                                                                         To be used for data collected or disseminated every month</span>
-<span class="co">#&gt; 13                                                                                                                                                                                                                                                                                                                                                                                                                    To be used for data collected or disseminated every two months</span>
-<span class="co">#&gt; 14                                                                                                                                                                                                                                                                                                                                                                                                                       To be used for data collected or disseminated twice a month</span>
-<span class="co">#&gt; 15                                                                                                                                                                                                                                                                                                                                                                                                                 To be used for data collected or disseminated three times a month</span>
-<span class="co">#&gt; 16                                                                                                                                                                                                                                                                                                                                                                                                                          To be used for data collected or disseminated every week</span>
-<span class="co">#&gt; 17                                                                                                                                                                                                                                                                                                                                                                                                                     To be used for data collected or disseminated every two weeks</span>
-<span class="co">#&gt; 18                                                                                                                                                                                                                                                                                                                                                                                                                   To be used for data collected or disseminated every three weeks</span>
-<span class="co">#&gt; 19                                                                                                                                                                                                                                                                                                                                                                                                                    To be used for data collected or disseminated every four weeks</span>
-<span class="co">#&gt; 20                                                                                                                                                                                                                                                                                                                                                                                                                        To be used for data collected or disseminated twice a week</span>
-<span class="co">#&gt; 21                                                                                                                                                                                                                                                                                                                                                                                                                  To be used for data collected or disseminated three times a week</span>
-<span class="co">#&gt; 22                                                                                                                                                                                                                                                                                                                                                                                                                           To be used for data collected or disseminated every day</span>
-<span class="co">#&gt; 23                                                                                                                                                                                                                                                                                                                                                                                                                         To be used for data collected or disseminated twice a day</span>
-<span class="co">#&gt; 24                                                                                                                                                                                                                                                                                                                                                                                                                          To be used for data collected or disseminated every hour</span>
-<span class="co">#&gt; 25                                                                                                                                                                                                                                                                                                                                                                                                                     To be used for data collected or disseminated every two hours</span>
-<span class="co">#&gt; 26                                                                                                                                                                                                                                                                                                                                                                                                                   To be used for data collected or disseminated every three hours</span>
-<span class="co">#&gt; 27                                                                                                                                                                                                                                                                                                    Similar to "daily", however there are no observations for Saturdays and Sundays (so, neither “missing values” nor “numeric values” should be provided for Saturday and Sunday)</span>
-<span class="co">#&gt; 28                                                                          While N denotes "minutely", usually, there may be no observations every minute (for several series the frequency is usually "irregular" within a day/days). And though observations may be sparse (not collected or disseminated every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed</span>
-<span class="co">#&gt; 29                                                                                                                                                 To be used with irregular time series that stores data for a sequence of arbitrary timepoints. Irregular time series are appropriate when the data arrives unpredictably, such as when the application records every stock trade or when random events are recorded (the interval between each element can be a different length)</span>
-<span class="co">#&gt; 30 The event occurs occasionally with an infrequent update that could span from 1 year to several years between events. It implies a survey that experiences a gap for several years prior to the next survey update (this is commonly linked to funding available to run a specific survey (i.e. health surveys), whereas a regular annual survey refers typically to ‘programs’ that are funded regularly and fall under the Statistics Act, and therefore never experience a gap)</span>
-<span class="co">#&gt; 31                                                                                                                                                                                                                                                              The event occurs occasionally with an infrequent update that could span from 1 month to several months between events. It implies a survey that experiences a gap for several months prior to the next survey update</span>
-<span class="co">#&gt; 32                                                                                                                                                                                                                                               To be used when the qualitative or quantitative values that a variable takes in a data set is associated to multiple occurrences with frequency other than the already defined ones (for example every 5 hours and 32 minutes etc.)</span>
-<span class="co">#&gt; 33                                                                                                                                                                              To be used when a set of values are reported within a time range but not associated to sub ranges. Often this could happen in case of missing or sparse information. (Let’s say we have two observations for 2020 but we do not know if they are part of a monthly reporting or quarterly reporting)</span>
-<span class="co">#&gt; 34                                                                                                                                                                                                                                                                              To be used when the qualitative or quantitative values that a variable takes in a data set is not associated to multiple occurrences (only single occurrence exists) one can use the _Z as frequency</span>
-<span class="co">#&gt;    name_locale description_locale</span>
-<span class="co">#&gt; 1           en                 en</span>
-<span class="co">#&gt; 2           en                 en</span>
-<span class="co">#&gt; 3           en                 en</span>
-<span class="co">#&gt; 4           en                 en</span>
-<span class="co">#&gt; 5           en                 en</span>
-<span class="co">#&gt; 6           en                 en</span>
-<span class="co">#&gt; 7           en                 en</span>
-<span class="co">#&gt; 8           en                 en</span>
-<span class="co">#&gt; 9           en                 en</span>
-<span class="co">#&gt; 10          en                 en</span>
-<span class="co">#&gt; 11          en                 en</span>
-<span class="co">#&gt; 12          en                 en</span>
-<span class="co">#&gt; 13          en                 en</span>
-<span class="co">#&gt; 14          en                 en</span>
-<span class="co">#&gt; 15          en                 en</span>
-<span class="co">#&gt; 16          en                 en</span>
-<span class="co">#&gt; 17          en                 en</span>
-<span class="co">#&gt; 18          en                 en</span>
-<span class="co">#&gt; 19          en                 en</span>
-<span class="co">#&gt; 20          en                 en</span>
-<span class="co">#&gt; 21          en                 en</span>
-<span class="co">#&gt; 22          en                 en</span>
-<span class="co">#&gt; 23          en                 en</span>
-<span class="co">#&gt; 24          en                 en</span>
-<span class="co">#&gt; 25          en                 en</span>
-<span class="co">#&gt; 26          en                 en</span>
-<span class="co">#&gt; 27          en                 en</span>
-<span class="co">#&gt; 28          en                 en</span>
-<span class="co">#&gt; 29          en                 en</span>
-<span class="co">#&gt; 30          en                 en</span>
-<span class="co">#&gt; 31          en                 en</span>
-<span class="co">#&gt; 32          en                 en</span>
-<span class="co">#&gt; 33          en                 en</span>
-<span class="co">#&gt; 34          en                 en</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"CL_FREQ"</span><span class="op">)</span></code></pre></div>
+<table class="table">
+<colgroup>
+<col width="0%">
+<col width="4%">
+<col width="88%">
+<col width="2%">
+<col width="3%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">id</th>
+<th align="left">name</th>
+<th align="left">description</th>
+<th align="left">name_locale</th>
+<th align="left">description_locale</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">A</td>
+<td align="left">Annual</td>
+<td align="left">To be used for data collected or disseminated every year</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">A2</td>
+<td align="left">Biennial</td>
+<td align="left">To be used for data collected or disseminated every two years</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">A3</td>
+<td align="left">Triennial</td>
+<td align="left">To be used for data collected or disseminated every three years</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">A4</td>
+<td align="left">Quadrennial</td>
+<td align="left">To be used for data collected or disseminated every four years</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">A5</td>
+<td align="left">Quinquennial</td>
+<td align="left">To be used for data collected or disseminated every five years</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">A10</td>
+<td align="left">Decennial</td>
+<td align="left">To be used for data collected or disseminated every ten years</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">A20</td>
+<td align="left">Bidecennial</td>
+<td align="left">To be used for data collected or disseminated every twenty years</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">A30</td>
+<td align="left">Tridecennial</td>
+<td align="left">To be used for data collected or disseminated every thirty years</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">A_3</td>
+<td align="left">Three times a year</td>
+<td align="left">To be used for data collected or disseminated three times a year</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">S</td>
+<td align="left">Half-yearly, semester</td>
+<td align="left">To be used for data collected or disseminated every semester</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">Q</td>
+<td align="left">Quarterly</td>
+<td align="left">To be used for data collected or disseminated every quarter</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">M</td>
+<td align="left">Monthly</td>
+<td align="left">To be used for data collected or disseminated every month</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">M2</td>
+<td align="left">Bimonthly</td>
+<td align="left">To be used for data collected or disseminated every two months</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">M_2</td>
+<td align="left">Semimonthly</td>
+<td align="left">To be used for data collected or disseminated twice a month</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">M_3</td>
+<td align="left">Three times a month</td>
+<td align="left">To be used for data collected or disseminated three times a month</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">W</td>
+<td align="left">Weekly</td>
+<td align="left">To be used for data collected or disseminated every week</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">W2</td>
+<td align="left">Biweekly</td>
+<td align="left">To be used for data collected or disseminated every two weeks</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">W3</td>
+<td align="left">Triweekly</td>
+<td align="left">To be used for data collected or disseminated every three weeks</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">W4</td>
+<td align="left">Four-weekly</td>
+<td align="left">To be used for data collected or disseminated every four weeks</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">W_2</td>
+<td align="left">Semiweekly</td>
+<td align="left">To be used for data collected or disseminated twice a week</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">W_3</td>
+<td align="left">Three times a week</td>
+<td align="left">To be used for data collected or disseminated three times a week</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">D</td>
+<td align="left">Daily</td>
+<td align="left">To be used for data collected or disseminated every day</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">D_2</td>
+<td align="left">Twice a day</td>
+<td align="left">To be used for data collected or disseminated twice a day</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">H</td>
+<td align="left">Hourly</td>
+<td align="left">To be used for data collected or disseminated every hour</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">H2</td>
+<td align="left">Bihourly</td>
+<td align="left">To be used for data collected or disseminated every two hours</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">H3</td>
+<td align="left">Trihourly</td>
+<td align="left">To be used for data collected or disseminated every three hours</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">B</td>
+<td align="left">Daily – business week</td>
+<td align="left">Similar to “daily”, however there are no observations for Saturdays and Sundays (so, neither “missing values” nor “numeric values” should be provided for Saturday and Sunday)</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">N</td>
+<td align="left">Minutely</td>
+<td align="left">While N denotes “minutely”, usually, there may be no observations every minute (for several series the frequency is usually “irregular” within a day/days). And though observations may be sparse (not collected or disseminated every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">I</td>
+<td align="left">Irregular</td>
+<td align="left">To be used with irregular time series that stores data for a sequence of arbitrary timepoints. Irregular time series are appropriate when the data arrives unpredictably, such as when the application records every stock trade or when random events are recorded (the interval between each element can be a different length)</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">OA</td>
+<td align="left">Occasional annual</td>
+<td align="left">The event occurs occasionally with an infrequent update that could span from 1 year to several years between events. It implies a survey that experiences a gap for several years prior to the next survey update (this is commonly linked to funding available to run a specific survey (i.e. health surveys), whereas a regular annual survey refers typically to ‘programs’ that are funded regularly and fall under the Statistics Act, and therefore never experience a gap)</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">OM</td>
+<td align="left">Occasional monthly</td>
+<td align="left">The event occurs occasionally with an infrequent update that could span from 1 month to several months between events. It implies a survey that experiences a gap for several months prior to the next survey update</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">_O</td>
+<td align="left">Other</td>
+<td align="left">To be used when the qualitative or quantitative values that a variable takes in a data set is associated to multiple occurrences with frequency other than the already defined ones (for example every 5 hours and 32 minutes etc.)</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="odd">
+<td align="left">_U</td>
+<td align="left">Unspecified</td>
+<td align="left">To be used when a set of values are reported within a time range but not associated to sub ranges. Often this could happen in case of missing or sparse information. (Let’s say we have two observations for 2020 but we do not know if they are part of a monthly reporting or quarterly reporting)</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+<tr class="even">
+<td align="left">_Z</td>
+<td align="left">Not applicable</td>
+<td align="left">To be used when the qualitative or quantitative values that a variable takes in a data set is not associated to multiple occurrences (only single occurrence exists) one can use the _Z as frequency</td>
+<td align="left">en</td>
+<td align="left">en</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
@@ -290,7 +513,13 @@
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/statcodelists" class="external-link"><img src="https://img.shields.io/badge/devel%20version-0.0.0.9003-blue.svg"></a></li>
+<li><a href="https://cran.r-project.org/web/licenses/CC0" class="external-link"><img src="https://img.shields.io/badge/license-CC0-lightgrey.svg" alt="License: CC0"></a></li>
+</ul>
+</div>
 
   </div>
 </div>
