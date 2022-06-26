@@ -1,3 +1,3 @@
-# StatCodelists 0.0.0.9000
+# statcodelists 0.9.0
 
-* Added a `NEWS.md` file to track changes to the package.
+* Added a `statcodelists` contains the current SDMX standard codelists.
