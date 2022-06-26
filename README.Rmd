@@ -16,8 +16,8 @@ knitr::opts_chunk$set(
 # statcodelists
 
 <!-- badges: start -->
-`r badger::badge_github_version(pkg = 'statcodelists', color = "blue")`
-[![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://cran.r-project.org/web/licenses/CC0)
+[![devel-version](https://img.shields.io/badge/devel%20version-0.9.0-blue.svg)](https://github.com/antaldaniel/statcodelists)
+[![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![dataobservatory](https://img.shields.io/badge/ecosystem-dataobservatory.eu-3EA135.svg)](https://dataobservatory.eu/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6751783.svg)](https://doi.org/10.5281/zenodo.6751783)
 <!-- badges: end -->

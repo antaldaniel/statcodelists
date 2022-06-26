@@ -5,9 +5,9 @@
 
 <!-- badges: start -->
 
-[![](https://img.shields.io/badge/devel%20version-0.9.0-blue.svg)](https://github.com/statcodelists)
+[![devel-version](https://img.shields.io/badge/devel%20version-0.9.0-blue.svg)](https://github.com/antaldaniel/statcodelists)
 [![License:
-CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://cran.r-project.org/web/licenses/CC0)
+CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![dataobservatory](https://img.shields.io/badge/ecosystem-dataobservatory.eu-3EA135.svg)](https://dataobservatory.eu/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6751783.svg)](https://doi.org/10.5281/zenodo.6751783)
 <!-- badges: end -->
