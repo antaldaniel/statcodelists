@@ -1,31 +1,53 @@
 destination: docs
 
+authors:
+  Daniel Antal:
+    href: https://www.linkedin.com/in/antaldaniel/
+  Reprex BV:
+    href: https://www.reprex.nl
+
 reference:
 - title: Catalogue of Codelists
   contents:
   - codebooks
 
-- title: SDMX Codelists
+- title: SDMX Codelists for units and measurements
+  contents:
+  - CL_FREQ
+  - CL_OBS_STATUS
+  - CL_CONF_STATUS
+  - CL_TIME_PER_COLLECT
+  - CL_UNIT_MULT
+  - CL_DECIMALS
+
+- title: SDMX Codelists for geographical concepts, collection areas
+  contents:
+  - CL_AREA
+  - CL_DEG_URB
+
+- title: SDMX Codelists for socio-demographic dimensions
+  contents:
+  - CL_AGE
+  - CL_SEX
+  - CL_CIVIL_STATUS
+
+- title: SDMX Codelists for economic activities, occupations, and enterprise outlays
   contents:
   - CL_ACTIVITY_ANZSIC06
   - CL_ACTIVITY_ISIC4
   - CL_ACTIVITY_NACE2
-  - CL_AGE
-  - CL_AREA
-  - CL_CIVIL_STATUS
-  - CL_COFOG_1999
-  - CL_CONF_STATUS
-  - CL_DEG_URB
-  - CL_FREQ
-  - CL_OBS_STATUS
   - CL_OCCUPATION
-  - CL_SEASONAL_ADJUST
-  - CL_SEX
+  - CL_COPP_1999
+
+- title: SDMX Codelists for economic government functions and non-profits serving households
+  contents:
+  - CL_COFOG_1999
+  - CL_COPNI_1999
+
+- title: SDMX Codelists for time and time series
+  contents:
   - CL_TIME_FORMAT
-  - CL_TIME_PER_COLLECT
   - CL_TIMETRANS
-  - CL_TIMETRANS_TYPE
   - CL_TIMETRANS_PER
-  - CL_UNIT_MULT
-
-
+  - CL_TIMETRANS_TYPE
+  - CL_SEASONAL_ADJUST

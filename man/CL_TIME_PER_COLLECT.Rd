@@ -5,9 +5,9 @@
 \alias{CL_TIME_PER_COLLECT}
 \title{Codelist Time Period - Collection}
 \format{
-A data frame with 47 rows and 5 variables:
+A data frame with 8 rows and 5 variables:
 \describe{
-\item{id}{A statistical code for describing the transformation of the time series.}
+\item{id}{A statistical code for describing the collection method within a time frame.}
 \item{name}{The standard label of the code.}
 \item{description}{The description of the code.}
 \item{name_locale}{The language code of the name label.}
@@ -25,12 +25,9 @@ Codelist \code{Time Period - Collection},
 abbreviated as \code{CL_TIME_PER_COLLECT}. Version 1.0.
 }
 \details{
-The SDMX description: 'This code list provides a list of values for representing
+The SDMX description: "This code list provides a list of values for representing
 dates or periods during which the observations have been collected in order to compile
 the indicator for the target reference period. This code list was formally adopted on
-15 April 2015. More information about this code list and SDMX code lists in general
-(e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-etc.; syntaxes for the creation of further codes; general guidelines for the creation of
-SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+15 April 2015."
 }
 \keyword{datasets}

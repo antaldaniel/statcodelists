@@ -3,7 +3,7 @@
 \docType{data}
 \name{CL_CIVIL_STATUS}
 \alias{CL_CIVIL_STATUS}
-\title{Codelist Activity - ISIC, Revision 4}
+\title{Codelist Civil (or Marital) Status}
 \format{
 A data frame with 8 rows and 5 variables:
 \describe{
@@ -21,18 +21,13 @@ A data frame with 8 rows and 5 variables:
 CL_CIVIL_STATUS
 }
 \description{
-A dataset containing the \code{	Activity - ISIC, Revision 4} codelist,
+A dataset containing the \code{Civil (or Marital) Status} codelist,
 abbreviated as \code{CL_CIVIL_STATUS}. Version 1.0.
 }
 \details{
-The SDMX description: '	This code list provides a list of values for describing
+The SDMX description: "This code list provides a list of values for describing
 the civil (or marital) status of an individual, i.e. the legal, conjugal status of an individual in
 relation to the marriage laws or customs of the country.
-This code list was formally adopted on 25 November 2013.
-More information about and
-supporting material for this code list and SDMX code lists in general
-(e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-etc.; syntaxes for the creation of further codes; general guidelines for the creation
-of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+This code list was formally adopted on 25 November 2013."
 }
 \keyword{datasets}

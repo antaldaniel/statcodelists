@@ -2,18 +2,14 @@
 #'
 #' @description A dataset containing the \code{Age} codelist,
 #' abbreviated as \code{CL_AGE}. Version 1.0.
-#' @details The SDMX description: 'This code list provides a set of building blocks
+#' @details The SDMX description: "This code list provides a set of building blocks
 #' to be used for creating simple or complex code identifiers relating to the concept of
-#' "age" as defined in the Cross-Domain Concepts and the Metadata Common Vocabulary,
+#' \code{age} as defined in the Cross-Domain Concepts and the Metadata Common Vocabulary,
 #' i.e. the length of time that a person has lived or a thing has existed.
-#' This code list was formally adopted on 7 February 2014. More information about and
-#' supporting material for this code list and SDMX code lists in general
-#' (e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-#' etc.; syntaxes for the creation of further codes; general guidelines for the creation
-#' of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+#' This code list was formally adopted on 7 February 2014."
 #' @format A data frame with 5 rows and 5 variables:
 #' \describe{
-#'   \item{id}{A statistical code for describing age related time concepts.}
+#'   \item{id}{A statistical code for describing age-related time concepts.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
 #'   \item{name_locale}{The language code of the name label.}
@@ -30,9 +26,9 @@
 #' reference area codes in the \[United Nations\] \href{https://unstats.un.org/unsd/methodology/m49/}{M49} and \href{https://www.iso.org/iso-3166-country-codes.html}{ISO-3166} classifications.'
 #' @format A data frame with 899 rows and 5 variables:
 #' \describe{
-#'   \item{id}{A statistical code for describing reference (geographical) areas.}
+#'   \item{id}{A statistical code lise for describing reference geographical areas.}
 #'   \item{name}{The standard label of the code.}
-#'   \item{description}{The description of the code.}
+#'   \item{description}{The description of the code, with reference to the relevant international standard.}
 #'   \item{name_locale}{The language code of the name label.}
 #'   \item{description_locale}{The language code of the description.}
 #' }
@@ -43,19 +39,14 @@
 #'
 #' @description A dataset containing the \code{	Activity - ISIC, Revision 4} codelist,
 #' abbreviated as \code{CL_ACTIVITY_ANZSIC06}. Version 1.0.
-#' @details The SDMX description: 'This code list provides lists of values for describing
+#' @details The SDMX description: "This code list provides lists of values for describing
 #' the economic activity, defined as the combination of actions that result in the
 #' production, distribution and consumption of goods or services. It is based on the
 #' Australian/New Zealand standard classification ANZSIC (Australian and New Zealand
-#' Standard Industrial Classification), 2006.
-#' More information about and
-#' supporting material for this code list and SDMX code lists in general
-#' (e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-#' etc.; syntaxes for the creation of further codes; general guidelines for the creation
-#' of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+#' Standard Industrial Classification), 2006."
 #' @format A data frame with 825 rows and 5 variables:
 #' \describe{
-#'   \item{id}{A statistical code for describing economic activities.}
+#'   \item{id}{A statistical code for describing economic activities according to ANZSIC.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
 #'   \item{name_locale}{The language code of the name label.}
@@ -75,7 +66,7 @@
 #' of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
 #' @format A data frame with 996 rows and 5 variables:
 #' \describe{
-#'   \item{id}{A statistical code for describing economic activities.}
+#'   \item{id}{A statistical code for describing economic activities according to NACE Rev.2.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
 #'   \item{name_locale}{The language code of the name label.}
@@ -86,18 +77,13 @@
 
 #' @title Codelist Activity - ISIC, Revision 4
 #'
-#' @description A dataset containing the \code{	Activity - ISIC, Revision 4} codelist,
+#' @description A dataset containing the \code{Activity - ISIC, Revision 4} codelist,
 #' abbreviated as \code{CL_ACTIVITY_ISIC4}. Version 1.0.
-#' @details The SDMX description: 'This code list provides lists of values for describing
+#' @details The SDMX description: "This code list provides lists of values for describing
 #' the economic activity, defined as the combination of actions that result in the
 #' production, distribution and consumption of goods or services. It is based on the
 #' United Nations standard classification ISIC (International Standard Industrial
-#' Classification of All Economic Activities), Revision 4 (2008).
-#' More information about and
-#' supporting material for this code list and SDMX code lists in general
-#' (e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-#' etc.; syntaxes for the creation of further codes; general guidelines for the creation
-#' of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+#' Classification of All Economic Activities), Revision 4 (2008)."
 #' @format A data frame with 766 rows and 5 variables:
 #' \describe{
 #'   \item{id}{A statistical code for describing economic activities.}
@@ -109,19 +95,14 @@
 #' @source \url{https://sdmx.org/?page_id=3215/}
 "CL_ACTIVITY_ISIC4"
 
-#' @title Codelist Activity - ISIC, Revision 4
+#' @title Codelist Civil (or Marital) Status
 #'
-#' @description A dataset containing the \code{	Activity - ISIC, Revision 4} codelist,
+#' @description A dataset containing the \code{Civil (or Marital) Status} codelist,
 #' abbreviated as \code{CL_CIVIL_STATUS}. Version 1.0.
-#' @details The SDMX description: '	This code list provides a list of values for describing
+#' @details The SDMX description: "This code list provides a list of values for describing
 #' the civil (or marital) status of an individual, i.e. the legal, conjugal status of an individual in
 #' relation to the marriage laws or customs of the country.
-#' This code list was formally adopted on 25 November 2013.
-#' More information about and
-#' supporting material for this code list and SDMX code lists in general
-#' (e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-#' etc.; syntaxes for the creation of further codes; general guidelines for the creation
-#' of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+#' This code list was formally adopted on 25 November 2013."
 #' @format A data frame with 8 rows and 5 variables:
 #' \describe{
 #'   \item{id}{A statistical code for describing the civil (marital) status of the individual.}
@@ -173,8 +154,7 @@
 #' abbreviated as \code{CL_COPP_1999}. Version 1.0.
 #' @description SDMX desciption: "This code list provides a set of building blocks to be
 #' used for classifying outlays of enterprises by purpose. It is based on the United Nations
-#' eponymous standard classification.
-#' This code list was formally adopted on 27 June 2014."
+#' eponymous standard classification. This code list was formally adopted on 27 June 2014."
 #' @format A data frame with 51 rows and 5 variables:
 #' \describe{
 #'   \item{id}{A statistical code for describing outlays to producers.}
@@ -352,16 +332,13 @@
 #'
 #' @description Codelist \code{Time Period - Collection},
 #' abbreviated as \code{CL_TIME_PER_COLLECT}. Version 1.0.
-#' @details The SDMX description: 'This code list provides a list of values for representing
+#' @details The SDMX description: "This code list provides a list of values for representing
 #' dates or periods during which the observations have been collected in order to compile
 #' the indicator for the target reference period. This code list was formally adopted on
-#' 15 April 2015. More information about this code list and SDMX code lists in general
-#' (e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-#' etc.; syntaxes for the creation of further codes; general guidelines for the creation of
-#' SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
-#' @format A data frame with 47 rows and 5 variables:
+#' 15 April 2015."
+#' @format A data frame with 8 rows and 5 variables:
 #' \describe{
-#'   \item{id}{A statistical code for describing the transformation of the time series.}
+#'   \item{id}{A statistical code for describing the collection method within a time frame.}
 #'   \item{name}{The standard label of the code.}
 #'   \item{description}{The description of the code.}
 #'   \item{name_locale}{The language code of the name label.}
@@ -374,7 +351,7 @@
 #'
 #' @description Codelist \code{Time Transformation}, abbreviated as
 #' \code{CL_TIMETRANS}. Version 1.0.
-#' @details The SDMX description: "	Code list for compound coding (type and period)
+#' @details The SDMX description: "Code list for compound coding (type and period)
 #' of transformation types of time series."
 #' @format A data frame with 47 rows and 5 variables:
 #' \describe{

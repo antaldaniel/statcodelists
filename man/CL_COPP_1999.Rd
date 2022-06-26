@@ -26,7 +26,6 @@ abbreviated as \code{CL_COPP_1999}. Version 1.0.
 
 SDMX desciption: "This code list provides a set of building blocks to be
 used for classifying outlays of enterprises by purpose. It is based on the United Nations
-eponymous standard classification.
-This code list was formally adopted on 27 June 2014."
+eponymous standard classification. This code list was formally adopted on 27 June 2014."
 }
 \keyword{datasets}

@@ -7,9 +7,9 @@
 \format{
 A data frame with 899 rows and 5 variables:
 \describe{
-\item{id}{A statistical code for describing reference (geographical) areas.}
+\item{id}{A statistical code lise for describing reference geographical areas.}
 \item{name}{The standard label of the code.}
-\item{description}{The description of the code.}
+\item{description}{The description of the code, with reference to the relevant international standard.}
 \item{name_locale}{The language code of the name label.}
 \item{description_locale}{The language code of the description.}
 }

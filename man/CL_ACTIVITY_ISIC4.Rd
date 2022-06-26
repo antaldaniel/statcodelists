@@ -21,19 +21,14 @@ A data frame with 766 rows and 5 variables:
 CL_ACTIVITY_ISIC4
 }
 \description{
-A dataset containing the \code{	Activity - ISIC, Revision 4} codelist,
+A dataset containing the \code{Activity - ISIC, Revision 4} codelist,
 abbreviated as \code{CL_ACTIVITY_ISIC4}. Version 1.0.
 }
 \details{
-The SDMX description: 'This code list provides lists of values for describing
+The SDMX description: "This code list provides lists of values for describing
 the economic activity, defined as the combination of actions that result in the
 production, distribution and consumption of goods or services. It is based on the
 United Nations standard classification ISIC (International Standard Industrial
-Classification of All Economic Activities), Revision 4 (2008).
-More information about and
-supporting material for this code list and SDMX code lists in general
-(e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-etc.; syntaxes for the creation of further codes; general guidelines for the creation
-of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+Classification of All Economic Activities), Revision 4 (2008)."
 }
 \keyword{datasets}

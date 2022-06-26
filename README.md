@@ -5,12 +5,14 @@
 
 <!-- badges: start -->
 
-[![](https://img.shields.io/badge/devel%20version-0.1.0-blue.svg)](https://github.com/statcodelists)
+[![](https://img.shields.io/badge/devel%20version-0.9.0-blue.svg)](https://github.com/statcodelists)
 [![License:
 CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://cran.r-project.org/web/licenses/CC0)
+[![dataobservatory](https://img.shields.io/badge/ecosystem-dataobservatory.eu-3EA135.svg)](https://dataobservatory.eu/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6751783.svg)](https://doi.org/10.5281/zenodo.6751783)
 <!-- badges: end -->
 
-The goal of statcodelists is to promote the reuse and exchange of
+The goal of `statcodelists` is to promote the reuse and exchange of
 statistical information and related metadata with making the
 internationally standardized SDMX code lists available for the R user.
 
@@ -36,7 +38,7 @@ reducing the need for mapping systems and interfaces delivering data and
 metadata to them. Therefore, a choice over code lists has a great impact
 on the efficiency of data sharing.
 
-statcodelists helps the use of the latest codelist in your R workflow.
+`statcodelists` helps the use of the latest codelist in your R workflow.
 
 ``` r
 library(statcodelists)
@@ -114,6 +116,14 @@ Further recommended code values for expressing general statistical
 concepts like `not applicable`, etc., can be found in section
 `Generic codes` of the [Guidelines for the creation and management of
 SDMX Cross-Domain Code Lists](https://sdmx.org/?page_id=4345).
+
+For further codelists used by reliable statistical agency but not
+harmonized on SDMX level please consult the [SDMX Global
+Registry](https://registry.sdmx.org/)
+[Codelists](https://registry.sdmx.org/items/codelist.html) page.
+
+The creator of this package is not affiliated with SDMX, and this
+package was has not been endorsed by SDMX.
 
 ## Code of Conduct
 

@@ -7,7 +7,7 @@
 \format{
 A data frame with 5 rows and 5 variables:
 \describe{
-\item{id}{A statistical code for describing age related time concepts.}
+\item{id}{A statistical code for describing age-related time concepts.}
 \item{name}{The standard label of the code.}
 \item{description}{The description of the code.}
 \item{name_locale}{The language code of the name label.}
@@ -25,14 +25,10 @@ A dataset containing the \code{Age} codelist,
 abbreviated as \code{CL_AGE}. Version 1.0.
 }
 \details{
-The SDMX description: 'This code list provides a set of building blocks
+The SDMX description: "This code list provides a set of building blocks
 to be used for creating simple or complex code identifiers relating to the concept of
-"age" as defined in the Cross-Domain Concepts and the Metadata Common Vocabulary,
+\code{age} as defined in the Cross-Domain Concepts and the Metadata Common Vocabulary,
 i.e. the length of time that a person has lived or a thing has existed.
-This code list was formally adopted on 7 February 2014. More information about and
-supporting material for this code list and SDMX code lists in general
-(e.g. list of generic codes for expressing general concepts like "Total", "Unknown",
-etc.; syntaxes for the creation of further codes; general guidelines for the creation
-of SDMX code lists) can be found at this address: \url{https://sdmx.org/?page_id=4345}.'
+This code list was formally adopted on 7 February 2014."
 }
 \keyword{datasets}

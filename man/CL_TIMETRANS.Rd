@@ -25,7 +25,7 @@ Codelist \code{Time Transformation}, abbreviated as
 \code{CL_TIMETRANS}. Version 1.0.
 }
 \details{
-The SDMX description: "	Code list for compound coding (type and period)
+The SDMX description: "Code list for compound coding (type and period)
 of transformation types of time series."
 }
 \keyword{datasets}

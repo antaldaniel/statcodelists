@@ -18,9 +18,11 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 `r badger::badge_github_version(pkg = 'statcodelists', color = "blue")`
 [![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://cran.r-project.org/web/licenses/CC0)
+[![dataobservatory](https://img.shields.io/badge/ecosystem-dataobservatory.eu-3EA135.svg)](https://dataobservatory.eu/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6751783.svg)](https://doi.org/10.5281/zenodo.6751783)
 <!-- badges: end -->
 
-The goal of statcodelists is to promote the reuse and exchange of statistical information and related metadata with making the internationally standardized SDMX code lists available for the R user.
+The goal of `statcodelists` is to promote the reuse and exchange of statistical information and related metadata with making the internationally standardized SDMX code lists available for the R user.
 
 ## Installation
 
@@ -29,11 +31,12 @@ You can install the development version of statcodelists like so:
 ``` r
 devtools::install_github("antaldaniel/statcodelists")
 ```
+
 Cross-domain concepts in the SDMX framework describe concepts relevant to many, if not all, statistical domains. SDMX recommends using these concepts whenever feasible in SDMX structures and messages to promote the reuse and exchange of statistical information and related metadata between organisations. 
 
 Code lists are predefined sets of terms from which some statistical coded concepts take their values. SDMX cross-domain code lists are used to support cross-domain concepts. The use of common code lists will help users to work even more efficiently, easing the maintenance of and reducing the need for mapping systems and interfaces delivering data and metadata to them. Therefore, a choice over code lists has a great impact on the efficiency of data sharing.
 
-statcodelists helps the use of the latest codelist in your R workflow.
+`statcodelists` helps the use of the latest codelist in your R workflow.
 
 ```{r codebooks}
 library(statcodelists)
@@ -53,6 +56,10 @@ knitr::kable(CL_FREQ)
 ```
 
 Further recommended code values for expressing general statistical concepts like `not applicable`, etc., can be found in section `Generic codes` of the [Guidelines for the creation and management of SDMX Cross-Domain Code Lists](https://sdmx.org/?page_id=4345).
+
+For further codelists used by reliable statistical agency but not harmonized on SDMX level please consult the [SDMX Global Registry](https://registry.sdmx.org/) [Codelists](https://registry.sdmx.org/items/codelist.html) page.
+
+The creator of this package is not affiliated with SDMX, and this package was has not been endorsed by SDMX.
 
 ## Code of Conduct
 
