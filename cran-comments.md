@@ -1,6 +1,6 @@
 ## R CMD check results
 Test environments:
-- Windows 10, R version 4.1.3
+- R version 4.1.3, R version 4.2.1 on Windows 10 x64
 - Mac OS on mac.R-project.org/macbuilder, 
 - Fedora Linux, R-devel, clang, gfortran
 - Windows Server 2022, R-devel, 64 bit

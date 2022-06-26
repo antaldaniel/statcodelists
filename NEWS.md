@@ -1,3 +1,4 @@
 # statcodelists 0.9.0
 
-* Added a `statcodelists` contains the current SDMX standard codelists.1
+* Added a `statcodelists` contains the current SDMX standard codelists.
+* 0.9.1 fixes two broken URLs and adds detail to the DESCRIPTION.
