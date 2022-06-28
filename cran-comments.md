@@ -8,6 +8,14 @@ Test environments:
 
 0 errors v | 0 warnings v | 0 notes v
 
+0.9.2 CRAN candidate:
+
+* Spelling corrected in the DESCRIPTION.
+
+For manual review, the previous two revisions are below.
+
+0.9.1 CRAN candidate: 
+
 * This is a resubmission, the README.md had two malformatted URLs in the badges, which are not correct (apologies!)
 
 * Reviewer asked: "Is there some reference about the method you can add in the Description
@@ -19,7 +27,7 @@ The actual codelists have version numbers, no unique DOIs. Like relatively frequ
 
 The closest analogy I found on CRAN was the countrycodes package, which contains ISO-3166-1 codes with country names.
 
-The rest is from the previous submission: 
+0.9.0 CRAN candidate: 
 
 * This is a new release. The data package contains no code, only the SDMX statistical ISO 
 standards codelists.  The aim of the package is to streamline standard statistical metadata use in various CRAN released and newly developed rOpenGov packages.

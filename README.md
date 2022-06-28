@@ -15,6 +15,10 @@ CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://creativeco
 The goal of `statcodelists` is to promote the reuse and exchange of
 statistical information and related metadata with making the
 internationally standardized SDMX code lists available for the R user.
+SDMX has been published as an ISO International Standard (ISO 17369).
+The metadata definitions, including the codelists are updated regularly
+according to the standard. The authoritative version of the code lists
+made available in this package is <https://sdmx.org/?page_id=3215/>.
 
 ## Installation
 

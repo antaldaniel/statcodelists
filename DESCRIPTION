@@ -1,6 +1,6 @@
 Package: statcodelists
 Title: Use Standardized Statistical Codelists
-Version: 0.9.1
+Version: 0.9.2
 Authors@R: 
     person(given = "Daniel", family = "Antal", 
     email = "daniel.antal@dataobservatory.eu",
@@ -10,8 +10,8 @@ Description: The goal of statcodelists is to promote the reuse and exchange of s
     information and related metadata with making the internationally standardized SDMX code 
     lists available for the R user. SDMX has been published as an ISO International Standard 
     (ISO 17369). The metadata definitions, including the codelists are updated regularly 
-    according to the standard. The authoritative version of the code lists made availabe in this
-    package  is <https://sdmx.org/?page_id=3215/>.
+    according to the standard. The authoritative version of the code lists made available in this
+    package is <https://sdmx.org/?page_id=3215/>.
 Language: en-US
 License: CC0
 URL: https://statcodelists.dataobservatory.eu, https://github.com/antaldaniel
