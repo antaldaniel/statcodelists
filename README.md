@@ -9,7 +9,7 @@
 [![CRAN_time_from_release](https://www.r-pkg.org/badges/ago/statcodelists)](https://cran.r-project.org/package=statcodelists)
 [![metacran
 downloads](https://cranlogs.r-pkg.org/badges/statcodelists)](https://cran.r-project.org/package=iotables)
-[![devel-version](https://img.shields.io/badge/devel%20version-0.9.0-blue.svg)](https://github.com/antaldaniel/statcodelists)
+[![devel-version](https://img.shields.io/badge/devel%20version-0.9.2-blue.svg)](https://github.com/antaldaniel/statcodelists)
 [![License:
 CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![dataobservatory](https://img.shields.io/badge/ecosystem-dataobservatory.eu-3EA135.svg)](https://dataobservatory.eu/)
