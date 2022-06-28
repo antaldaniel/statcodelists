@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/statcodelists)](https://cran.r-project.org/package=statcodelists)
+[![CRAN_time_from_release](https://www.r-pkg.org/badges/ago/statcodelists)](https://cran.r-project.org/package=statcodelists)
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/statcodelists)](https://cran.r-project.org/package=iotables)
 [![devel-version](https://img.shields.io/badge/devel%20version-0.9.0-blue.svg)](https://github.com/antaldaniel/statcodelists)
 [![License:
 CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -22,7 +26,13 @@ made available in this package is <https://sdmx.org/?page_id=3215/>.
 
 ## Installation
 
-You can install the development version of statcodelists like so:
+You can install `statcodelists` from CRAN:
+
+``` r
+install.packages("statcodelists")
+```
+
+or install the development version of statcodelists like so:
 
 ``` r
 devtools::install_github("antaldaniel/statcodelists")
