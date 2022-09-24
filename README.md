@@ -1,10 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# statcodelists
+# statcodelists <img src="man/figures/logo.png" align="right" />
 
-<!-- badges: start -->
-
+![statcodelists](man/figures/logo20.png) <!-- badges: start -->
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/statcodelists)](https://cran.r-project.org/package=statcodelists)
 [![CRAN_time_from_release](https://www.r-pkg.org/badges/ago/statcodelists)](https://cran.r-project.org/package=statcodelists)
 [![metacran
@@ -32,7 +31,7 @@ You can install `statcodelists` from CRAN:
 install.packages("statcodelists")
 ```
 
-or install the development version of statcodelists like so:
+or install the development version of `statcodelists` like so:
 
 ``` r
 devtools::install_github("antaldaniel/statcodelists")

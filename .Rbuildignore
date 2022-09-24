@@ -6,6 +6,7 @@
 ^not_included$
 ^data-raw$
 _pkgdown.yml
+^pkgdown\.$
 ^docs$
 ^cran-comments\.md$
 ^\.RData$
